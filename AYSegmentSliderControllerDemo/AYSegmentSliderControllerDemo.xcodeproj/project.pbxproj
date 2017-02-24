@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		478393EB1E608D9900DE575F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 478393EA1E608D9900DE575F /* main.m */; };
+		478393EE1E608D9900DE575F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 478393ED1E608D9900DE575F /* AppDelegate.m */; };
+		478393F11E608D9900DE575F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478393F01E608D9900DE575F /* ViewController.m */; };
+		478393F41E608D9900DE575F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478393F21E608D9900DE575F /* Main.storyboard */; };
+		478393F61E608D9900DE575F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478393F51E608D9900DE575F /* Assets.xcassets */; };
+		478393F91E608D9900DE575F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478393F71E608D9900DE575F /* LaunchScreen.storyboard */; };
+		478394041E608D9900DE575F /* AYSegmentSliderControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394031E608D9900DE575F /* AYSegmentSliderControllerDemoTests.m */; };
+		4783940F1E608D9900DE575F /* AYSegmentSliderControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4783940E1E608D9900DE575F /* AYSegmentSliderControllerDemoUITests.m */; };
+		4783941F1E608E1200DE575F /* AYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4783941E1E608E1200DE575F /* AYTabBarController.m */; };
+		478394251E608E5300DE575F /* AYCustomSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394221E608E5300DE575F /* AYCustomSegmentView.m */; };
+		478394261E608E5300DE575F /* XMGTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394241E608E5300DE575F /* XMGTitleButton.m */; };
+		4783942C1E608E8000DE575F /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394291E608E8000DE575F /* UIView+Layer.m */; };
+		4783942D1E608E8000DE575F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4783942B1E608E8000DE575F /* UIView+Extension.m */; };
+		478394331E608EBA00DE575F /* AYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394301E608EBA00DE575F /* AYHomeViewController.m */; };
+		478394341E608EBA00DE575F /* HomeTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394321E608EBA00DE575F /* HomeTwoViewController.m */; };
+		478394461E608EE000DE575F /* AYSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394371E608EE000DE575F /* AYSliderViewController.m */; };
+		478394471E608EE000DE575F /* YZOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394391E608EE000DE575F /* YZOneViewController.m */; };
+		478394481E608EE000DE575F /* YZTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4783943B1E608EE000DE575F /* YZTwoViewController.m */; };
+		478394491E608EE000DE575F /* YZThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4783943D1E608EE000DE575F /* YZThreeViewController.m */; };
+		4783944A1E608EE000DE575F /* YZFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4783943F1E608EE000DE575F /* YZFourViewController.m */; };
+		4783944B1E608EE000DE575F /* YZFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394411E608EE000DE575F /* YZFiveViewController.m */; };
+		4783944C1E608EE000DE575F /* YZSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394431E608EE000DE575F /* YZSixViewController.m */; };
+		4783944D1E608EE000DE575F /* YZSevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394451E608EE000DE575F /* YZSevenViewController.m */; };
+		478394511E608F0E00DE575F /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394501E608F0E00DE575F /* TempViewController.m */; };
+		478394581E608F1E00DE575F /* AYDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394531E608F1E00DE575F /* AYDiscoverViewController.m */; };
+		478394591E608F1E00DE575F /* AYCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394551E608F1E00DE575F /* AYCheckViewController.m */; };
+		4783945A1E608F1E00DE575F /* AYMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394571E608F1E00DE575F /* AYMessageViewController.m */; };
+		4783946A1E608FCB00DE575F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4783945E1E608FCB00DE575F /* UIView+Frame.m */; };
+		4783946B1E608FCB00DE575F /* UIView+YZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394601E608FCB00DE575F /* UIView+YZFrame.m */; };
+		4783946C1E608FCB00DE575F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394621E608FCB00DE575F /* UIView+Extension.m */; };
+		4783946D1E608FCB00DE575F /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394641E608FCB00DE575F /* YZDisplayTitleLabel.m */; };
+		4783946E1E608FCB00DE575F /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394661E608FCB00DE575F /* YZDisplayViewController.m */; };
+		4783946F1E608FCB00DE575F /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 478394691E608FCB00DE575F /* YZFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		478394001E608D9900DE575F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478393DE1E608D9900DE575F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478393E51E608D9900DE575F;
+			remoteInfo = AYSegmentSliderControllerDemo;
+		};
+		4783940B1E608D9900DE575F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478393DE1E608D9900DE575F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478393E51E608D9900DE575F;
+			remoteInfo = AYSegmentSliderControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		478393E61E608D9900DE575F /* AYSegmentSliderControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYSegmentSliderControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		478393EA1E608D9900DE575F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		478393EC1E608D9900DE575F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		478393ED1E608D9900DE575F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		478393EF1E608D9900DE575F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		478393F01E608D9900DE575F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		478393F31E608D9900DE575F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		478393F51E608D9900DE575F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478393F81E608D9900DE575F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478393FA1E608D9900DE575F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478393FF1E608D9900DE575F /* AYSegmentSliderControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYSegmentSliderControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478394031E608D9900DE575F /* AYSegmentSliderControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYSegmentSliderControllerDemoTests.m; sourceTree = "<group>"; };
+		478394051E608D9900DE575F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4783940A1E608D9900DE575F /* AYSegmentSliderControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYSegmentSliderControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4783940E1E608D9900DE575F /* AYSegmentSliderControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYSegmentSliderControllerDemoUITests.m; sourceTree = "<group>"; };
+		478394101E608D9900DE575F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4783941D1E608E1200DE575F /* AYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYTabBarController.h; sourceTree = "<group>"; };
+		4783941E1E608E1200DE575F /* AYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYTabBarController.m; sourceTree = "<group>"; };
+		478394211E608E5300DE575F /* AYCustomSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYCustomSegmentView.h; sourceTree = "<group>"; };
+		478394221E608E5300DE575F /* AYCustomSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYCustomSegmentView.m; sourceTree = "<group>"; };
+		478394231E608E5300DE575F /* XMGTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTitleButton.h; sourceTree = "<group>"; };
+		478394241E608E5300DE575F /* XMGTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTitleButton.m; sourceTree = "<group>"; };
+		478394281E608E8000DE575F /* UIView+Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
+		478394291E608E8000DE575F /* UIView+Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layer.m"; sourceTree = "<group>"; };
+		4783942A1E608E8000DE575F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		4783942B1E608E8000DE575F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		4783942F1E608EBA00DE575F /* AYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYHomeViewController.h; sourceTree = "<group>"; };
+		478394301E608EBA00DE575F /* AYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYHomeViewController.m; sourceTree = "<group>"; };
+		478394311E608EBA00DE575F /* HomeTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTwoViewController.h; sourceTree = "<group>"; };
+		478394321E608EBA00DE575F /* HomeTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTwoViewController.m; sourceTree = "<group>"; };
+		478394361E608EE000DE575F /* AYSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYSliderViewController.h; sourceTree = "<group>"; };
+		478394371E608EE000DE575F /* AYSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYSliderViewController.m; sourceTree = "<group>"; };
+		478394381E608EE000DE575F /* YZOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZOneViewController.h; sourceTree = "<group>"; };
+		478394391E608EE000DE575F /* YZOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZOneViewController.m; sourceTree = "<group>"; };
+		4783943A1E608EE000DE575F /* YZTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTwoViewController.h; sourceTree = "<group>"; };
+		4783943B1E608EE000DE575F /* YZTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTwoViewController.m; sourceTree = "<group>"; };
+		4783943C1E608EE000DE575F /* YZThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZThreeViewController.h; sourceTree = "<group>"; };
+		4783943D1E608EE000DE575F /* YZThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZThreeViewController.m; sourceTree = "<group>"; };
+		4783943E1E608EE000DE575F /* YZFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFourViewController.h; sourceTree = "<group>"; };
+		4783943F1E608EE000DE575F /* YZFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFourViewController.m; sourceTree = "<group>"; };
+		478394401E608EE000DE575F /* YZFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFiveViewController.h; sourceTree = "<group>"; };
+		478394411E608EE000DE575F /* YZFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFiveViewController.m; sourceTree = "<group>"; };
+		478394421E608EE000DE575F /* YZSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSixViewController.h; sourceTree = "<group>"; };
+		478394431E608EE000DE575F /* YZSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSixViewController.m; sourceTree = "<group>"; };
+		478394441E608EE000DE575F /* YZSevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSevenViewController.h; sourceTree = "<group>"; };
+		478394451E608EE000DE575F /* YZSevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSevenViewController.m; sourceTree = "<group>"; };
+		4783944F1E608F0E00DE575F /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		478394501E608F0E00DE575F /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		478394521E608F1E00DE575F /* AYDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYDiscoverViewController.h; sourceTree = "<group>"; };
+		478394531E608F1E00DE575F /* AYDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYDiscoverViewController.m; sourceTree = "<group>"; };
+		478394541E608F1E00DE575F /* AYCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYCheckViewController.h; sourceTree = "<group>"; };
+		478394551E608F1E00DE575F /* AYCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYCheckViewController.m; sourceTree = "<group>"; };
+		478394561E608F1E00DE575F /* AYMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMessageViewController.h; sourceTree = "<group>"; };
+		478394571E608F1E00DE575F /* AYMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYMessageViewController.m; sourceTree = "<group>"; };
+		4783945D1E608FCB00DE575F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		4783945E1E608FCB00DE575F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		4783945F1E608FCB00DE575F /* UIView+YZFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YZFrame.h"; sourceTree = "<group>"; };
+		478394601E608FCB00DE575F /* UIView+YZFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YZFrame.m"; sourceTree = "<group>"; };
+		478394611E608FCB00DE575F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		478394621E608FCB00DE575F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		478394631E608FCB00DE575F /* YZDisplayTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayTitleLabel.h; sourceTree = "<group>"; };
+		478394641E608FCB00DE575F /* YZDisplayTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayTitleLabel.m; sourceTree = "<group>"; };
+		478394651E608FCB00DE575F /* YZDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewController.h; sourceTree = "<group>"; };
+		478394661E608FCB00DE575F /* YZDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayViewController.m; sourceTree = "<group>"; };
+		478394671E608FCB00DE575F /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
+		478394681E608FCB00DE575F /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
+		478394691E608FCB00DE575F /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478393E31E608D9900DE575F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478393FC1E608D9900DE575F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478394071E608D9900DE575F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478393DD1E608D9900DE575F = {
+			isa = PBXGroup;
+			children = (
+				478393E81E608D9900DE575F /* AYSegmentSliderControllerDemo */,
+				478394021E608D9900DE575F /* AYSegmentSliderControllerDemoTests */,
+				4783940D1E608D9900DE575F /* AYSegmentSliderControllerDemoUITests */,
+				478393E71E608D9900DE575F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		478393E71E608D9900DE575F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478393E61E608D9900DE575F /* AYSegmentSliderControllerDemo.app */,
+				478393FF1E608D9900DE575F /* AYSegmentSliderControllerDemoTests.xctest */,
+				4783940A1E608D9900DE575F /* AYSegmentSliderControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478393E81E608D9900DE575F /* AYSegmentSliderControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4783945B1E608F9700DE575F /* Vendor */,
+				4783942E1E608EA600DE575F /* Home */,
+				478394271E608E6F00DE575F /* Categary */,
+				478394201E608E3F00DE575F /* CustomView */,
+				4783941C1E608E0100DE575F /* Main */,
+				478393EC1E608D9900DE575F /* AppDelegate.h */,
+				478393ED1E608D9900DE575F /* AppDelegate.m */,
+				478394521E608F1E00DE575F /* AYDiscoverViewController.h */,
+				478394531E608F1E00DE575F /* AYDiscoverViewController.m */,
+				478394541E608F1E00DE575F /* AYCheckViewController.h */,
+				478394551E608F1E00DE575F /* AYCheckViewController.m */,
+				478394561E608F1E00DE575F /* AYMessageViewController.h */,
+				478394571E608F1E00DE575F /* AYMessageViewController.m */,
+				478393EF1E608D9900DE575F /* ViewController.h */,
+				478393F01E608D9900DE575F /* ViewController.m */,
+				478393F21E608D9900DE575F /* Main.storyboard */,
+				478393F51E608D9900DE575F /* Assets.xcassets */,
+				478393F71E608D9900DE575F /* LaunchScreen.storyboard */,
+				478393FA1E608D9900DE575F /* Info.plist */,
+				478393E91E608D9900DE575F /* Supporting Files */,
+			);
+			path = AYSegmentSliderControllerDemo;
+			sourceTree = "<group>";
+		};
+		478393E91E608D9900DE575F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				478393EA1E608D9900DE575F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		478394021E608D9900DE575F /* AYSegmentSliderControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				478394031E608D9900DE575F /* AYSegmentSliderControllerDemoTests.m */,
+				478394051E608D9900DE575F /* Info.plist */,
+			);
+			path = AYSegmentSliderControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		4783940D1E608D9900DE575F /* AYSegmentSliderControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4783940E1E608D9900DE575F /* AYSegmentSliderControllerDemoUITests.m */,
+				478394101E608D9900DE575F /* Info.plist */,
+			);
+			path = AYSegmentSliderControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		4783941C1E608E0100DE575F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4783941D1E608E1200DE575F /* AYTabBarController.h */,
+				4783941E1E608E1200DE575F /* AYTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		478394201E608E3F00DE575F /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				478394211E608E5300DE575F /* AYCustomSegmentView.h */,
+				478394221E608E5300DE575F /* AYCustomSegmentView.m */,
+				478394231E608E5300DE575F /* XMGTitleButton.h */,
+				478394241E608E5300DE575F /* XMGTitleButton.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		478394271E608E6F00DE575F /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				478394281E608E8000DE575F /* UIView+Layer.h */,
+				478394291E608E8000DE575F /* UIView+Layer.m */,
+				4783942A1E608E8000DE575F /* UIView+Extension.h */,
+				4783942B1E608E8000DE575F /* UIView+Extension.m */,
+			);
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		4783942E1E608EA600DE575F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4783942F1E608EBA00DE575F /* AYHomeViewController.h */,
+				478394301E608EBA00DE575F /* AYHomeViewController.m */,
+				478394311E608EBA00DE575F /* HomeTwoViewController.h */,
+				478394321E608EBA00DE575F /* HomeTwoViewController.m */,
+				4783944E1E608F0000DE575F /* CustomSlider */,
+				478394351E608ED000DE575F /* YZSlider */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		478394351E608ED000DE575F /* YZSlider */ = {
+			isa = PBXGroup;
+			children = (
+				478394361E608EE000DE575F /* AYSliderViewController.h */,
+				478394371E608EE000DE575F /* AYSliderViewController.m */,
+				478394381E608EE000DE575F /* YZOneViewController.h */,
+				478394391E608EE000DE575F /* YZOneViewController.m */,
+				4783943A1E608EE000DE575F /* YZTwoViewController.h */,
+				4783943B1E608EE000DE575F /* YZTwoViewController.m */,
+				4783943C1E608EE000DE575F /* YZThreeViewController.h */,
+				4783943D1E608EE000DE575F /* YZThreeViewController.m */,
+				4783943E1E608EE000DE575F /* YZFourViewController.h */,
+				4783943F1E608EE000DE575F /* YZFourViewController.m */,
+				478394401E608EE000DE575F /* YZFiveViewController.h */,
+				478394411E608EE000DE575F /* YZFiveViewController.m */,
+				478394421E608EE000DE575F /* YZSixViewController.h */,
+				478394431E608EE000DE575F /* YZSixViewController.m */,
+				478394441E608EE000DE575F /* YZSevenViewController.h */,
+				478394451E608EE000DE575F /* YZSevenViewController.m */,
+			);
+			path = YZSlider;
+			sourceTree = "<group>";
+		};
+		4783944E1E608F0000DE575F /* CustomSlider */ = {
+			isa = PBXGroup;
+			children = (
+				4783944F1E608F0E00DE575F /* TempViewController.h */,
+				478394501E608F0E00DE575F /* TempViewController.m */,
+			);
+			path = CustomSlider;
+			sourceTree = "<group>";
+		};
+		4783945B1E608F9700DE575F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4783945C1E608FB200DE575F /* YZDisplayViewController */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		4783945C1E608FB200DE575F /* YZDisplayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4783945D1E608FCB00DE575F /* UIView+Frame.h */,
+				4783945E1E608FCB00DE575F /* UIView+Frame.m */,
+				4783945F1E608FCB00DE575F /* UIView+YZFrame.h */,
+				478394601E608FCB00DE575F /* UIView+YZFrame.m */,
+				478394611E608FCB00DE575F /* UIView+Extension.h */,
+				478394621E608FCB00DE575F /* UIView+Extension.m */,
+				478394631E608FCB00DE575F /* YZDisplayTitleLabel.h */,
+				478394641E608FCB00DE575F /* YZDisplayTitleLabel.m */,
+				478394651E608FCB00DE575F /* YZDisplayViewController.h */,
+				478394661E608FCB00DE575F /* YZDisplayViewController.m */,
+				478394671E608FCB00DE575F /* YZDisplayViewHeader.h */,
+				478394681E608FCB00DE575F /* YZFlowLayout.h */,
+				478394691E608FCB00DE575F /* YZFlowLayout.m */,
+			);
+			path = YZDisplayViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478393E51E608D9900DE575F /* AYSegmentSliderControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478394131E608D9900DE575F /* Build configuration list for PBXNativeTarget "AYSegmentSliderControllerDemo" */;
+			buildPhases = (
+				478393E21E608D9900DE575F /* Sources */,
+				478393E31E608D9900DE575F /* Frameworks */,
+				478393E41E608D9900DE575F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYSegmentSliderControllerDemo;
+			productName = AYSegmentSliderControllerDemo;
+			productReference = 478393E61E608D9900DE575F /* AYSegmentSliderControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		478393FE1E608D9900DE575F /* AYSegmentSliderControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478394161E608D9900DE575F /* Build configuration list for PBXNativeTarget "AYSegmentSliderControllerDemoTests" */;
+			buildPhases = (
+				478393FB1E608D9900DE575F /* Sources */,
+				478393FC1E608D9900DE575F /* Frameworks */,
+				478393FD1E608D9900DE575F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478394011E608D9900DE575F /* PBXTargetDependency */,
+			);
+			name = AYSegmentSliderControllerDemoTests;
+			productName = AYSegmentSliderControllerDemoTests;
+			productReference = 478393FF1E608D9900DE575F /* AYSegmentSliderControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		478394091E608D9900DE575F /* AYSegmentSliderControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478394191E608D9900DE575F /* Build configuration list for PBXNativeTarget "AYSegmentSliderControllerDemoUITests" */;
+			buildPhases = (
+				478394061E608D9900DE575F /* Sources */,
+				478394071E608D9900DE575F /* Frameworks */,
+				478394081E608D9900DE575F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4783940C1E608D9900DE575F /* PBXTargetDependency */,
+			);
+			name = AYSegmentSliderControllerDemoUITests;
+			productName = AYSegmentSliderControllerDemoUITests;
+			productReference = 4783940A1E608D9900DE575F /* AYSegmentSliderControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478393DE1E608D9900DE575F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "国立安";
+				TargetAttributes = {
+					478393E51E608D9900DE575F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					478393FE1E608D9900DE575F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 478393E51E608D9900DE575F;
+					};
+					478394091E608D9900DE575F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 478393E51E608D9900DE575F;
+					};
+				};
+			};
+			buildConfigurationList = 478393E11E608D9900DE575F /* Build configuration list for PBXProject "AYSegmentSliderControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478393DD1E608D9900DE575F;
+			productRefGroup = 478393E71E608D9900DE575F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478393E51E608D9900DE575F /* AYSegmentSliderControllerDemo */,
+				478393FE1E608D9900DE575F /* AYSegmentSliderControllerDemoTests */,
+				478394091E608D9900DE575F /* AYSegmentSliderControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478393E41E608D9900DE575F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478393F91E608D9900DE575F /* LaunchScreen.storyboard in Resources */,
+				478393F61E608D9900DE575F /* Assets.xcassets in Resources */,
+				478393F41E608D9900DE575F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478393FD1E608D9900DE575F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478394081E608D9900DE575F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478393E21E608D9900DE575F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478393F11E608D9900DE575F /* ViewController.m in Sources */,
+				4783946A1E608FCB00DE575F /* UIView+Frame.m in Sources */,
+				478394591E608F1E00DE575F /* AYCheckViewController.m in Sources */,
+				478394481E608EE000DE575F /* YZTwoViewController.m in Sources */,
+				478394491E608EE000DE575F /* YZThreeViewController.m in Sources */,
+				4783946E1E608FCB00DE575F /* YZDisplayViewController.m in Sources */,
+				478394331E608EBA00DE575F /* AYHomeViewController.m in Sources */,
+				478394511E608F0E00DE575F /* TempViewController.m in Sources */,
+				478394581E608F1E00DE575F /* AYDiscoverViewController.m in Sources */,
+				478394341E608EBA00DE575F /* HomeTwoViewController.m in Sources */,
+				4783941F1E608E1200DE575F /* AYTabBarController.m in Sources */,
+				4783944C1E608EE000DE575F /* YZSixViewController.m in Sources */,
+				4783944D1E608EE000DE575F /* YZSevenViewController.m in Sources */,
+				4783944A1E608EE000DE575F /* YZFourViewController.m in Sources */,
+				4783946B1E608FCB00DE575F /* UIView+YZFrame.m in Sources */,
+				478394471E608EE000DE575F /* YZOneViewController.m in Sources */,
+				478393EE1E608D9900DE575F /* AppDelegate.m in Sources */,
+				478394461E608EE000DE575F /* AYSliderViewController.m in Sources */,
+				4783946F1E608FCB00DE575F /* YZFlowLayout.m in Sources */,
+				478394261E608E5300DE575F /* XMGTitleButton.m in Sources */,
+				478394251E608E5300DE575F /* AYCustomSegmentView.m in Sources */,
+				478393EB1E608D9900DE575F /* main.m in Sources */,
+				4783946C1E608FCB00DE575F /* UIView+Extension.m in Sources */,
+				4783944B1E608EE000DE575F /* YZFiveViewController.m in Sources */,
+				4783942D1E608E8000DE575F /* UIView+Extension.m in Sources */,
+				4783946D1E608FCB00DE575F /* YZDisplayTitleLabel.m in Sources */,
+				4783945A1E608F1E00DE575F /* AYMessageViewController.m in Sources */,
+				4783942C1E608E8000DE575F /* UIView+Layer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478393FB1E608D9900DE575F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478394041E608D9900DE575F /* AYSegmentSliderControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478394061E608D9900DE575F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4783940F1E608D9900DE575F /* AYSegmentSliderControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		478394011E608D9900DE575F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478393E51E608D9900DE575F /* AYSegmentSliderControllerDemo */;
+			targetProxy = 478394001E608D9900DE575F /* PBXContainerItemProxy */;
+		};
+		4783940C1E608D9900DE575F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478393E51E608D9900DE575F /* AYSegmentSliderControllerDemo */;
+			targetProxy = 4783940B1E608D9900DE575F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		478393F21E608D9900DE575F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478393F31E608D9900DE575F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		478393F71E608D9900DE575F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478393F81E608D9900DE575F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478394111E608D9900DE575F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		478394121E608D9900DE575F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478394141E608D9900DE575F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AYSegmentSliderControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYSegmentSliderControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		478394151E608D9900DE575F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AYSegmentSliderControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYSegmentSliderControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		478394171E608D9900DE575F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AYSegmentSliderControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYSegmentSliderControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYSegmentSliderControllerDemo.app/AYSegmentSliderControllerDemo";
+			};
+			name = Debug;
+		};
+		478394181E608D9900DE575F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AYSegmentSliderControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYSegmentSliderControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYSegmentSliderControllerDemo.app/AYSegmentSliderControllerDemo";
+			};
+			name = Release;
+		};
+		4783941A1E608D9900DE575F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AYSegmentSliderControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYSegmentSliderControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYSegmentSliderControllerDemo;
+			};
+			name = Debug;
+		};
+		4783941B1E608D9900DE575F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AYSegmentSliderControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYSegmentSliderControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYSegmentSliderControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478393E11E608D9900DE575F /* Build configuration list for PBXProject "AYSegmentSliderControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478394111E608D9900DE575F /* Debug */,
+				478394121E608D9900DE575F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478394131E608D9900DE575F /* Build configuration list for PBXNativeTarget "AYSegmentSliderControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478394141E608D9900DE575F /* Debug */,
+				478394151E608D9900DE575F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		478394161E608D9900DE575F /* Build configuration list for PBXNativeTarget "AYSegmentSliderControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478394171E608D9900DE575F /* Debug */,
+				478394181E608D9900DE575F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		478394191E608D9900DE575F /* Build configuration list for PBXNativeTarget "AYSegmentSliderControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4783941A1E608D9900DE575F /* Debug */,
+				4783941B1E608D9900DE575F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478393DE1E608D9900DE575F /* Project object */;
+}
